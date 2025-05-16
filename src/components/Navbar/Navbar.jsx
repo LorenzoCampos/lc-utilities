@@ -6,7 +6,7 @@ const Navbar = ({ logo, links, actions }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="w-full bg-sky-950 text-white shadow">
+    <nav className="w-full bg-sky-950 text-white shadow h-[6vh]">
       <div className="w-full mx-auto px-4 py-3 flex justify-between items-center">
         {/* Logo and Links */}
         <div className="flex items-center gap-10">

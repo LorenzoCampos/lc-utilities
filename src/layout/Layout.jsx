@@ -6,7 +6,7 @@ const Layout = () => {
   const logo = (
     <div className="flex items-center gap-2">
       <img
-        src="/public/assets/img/rub-soft-icon.png"
+        src="/assets/img/rub-soft-icon.png"
         alt="lc utilities"
         className="h-8"
       />
@@ -25,9 +25,7 @@ const Layout = () => {
       <Navbar logo={logo} links={links} />
 
       {/* Contenido de la página */}
-      <div className="p-4">
         <Outlet />
-      </div>
     </div>
   );
 };
